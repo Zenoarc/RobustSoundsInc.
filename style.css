@@ -6,7 +6,7 @@
  font-family: freckle face;
 
 }
-.jumbotron text-center{
+.jumbotron{
    background-image: url("/imgs/RobustPoster.jpg");
     background-size: cover;
     background-position: center;}
