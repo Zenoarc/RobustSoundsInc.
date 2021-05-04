@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+ font-family: freckle face;
+
+}
+.jumbotron{
+   background-image: url("/imgs/RobustPoster.jpg");
+    background-size: cover;
+    background-position: center;}
+
+.jumbotron h1{
+    color: black;
+    font-size: 100px;
+    line-height: 1.5;
+    padding-top: 3%;
+}
+.nav-link:hover{
+    font-weight: 600;
+    color: cornflowerblue
+}
+.footer{
+    padding-top: 40px;
+}
+
+.img-logo{
+    padding-top: 10%;
+}
+.navbar-nav{
+    font-size: 60px ;
+    
+}
+
+.nav-link{
+    font-size: 50px;
+}
+.fa fa-bandcamp{
+    size: 90px;
+}
