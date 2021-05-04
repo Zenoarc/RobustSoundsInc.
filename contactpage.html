@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet"> 
+<style>
+body {font-family: freckle face;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  height: fit-content;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: black;
+}
+
+input[type=submit]:hover {
+  background-color: green;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  padding: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<h3><u>Talk to us!</u></h3>
+
+<div class="container">
+  <form action="/index.html">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="enquires">Enquires</label>
+    <select id="enquires" name="enquires">
+      <option value="General Enquires">General Enquires</option>
+      <option value="Bookings">Bookings</option>
+      <option value="Business">Label Submissions</option>
+    </select>
+    
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+   
+
+    <input type="submit" value="Submit" class="form_element send">
+  </form>
+</div>
+
+</body>
+
+<footer class="footer">
+    <div class="text-center">
+      <a href="https://bandcamp.com/robustsoundsrecords"><i class="fa fa-bandcamp" style="font-size: 85px;"></i></a>
+      <a href="https://soundcloud.com/robustsoundsinc"><i class="fa fa-soundcloud" style="font-size: 85px;"></i></a>
+    </div>
+    <a href="index.html"><img src="/assets/Logo.png" width="150" height="150" title="RobustSounds" alt="Logo"></a>
+    <h1>&copy Robust Sounds Inc.</h1>
+  
+</footer>
+
+</html>
