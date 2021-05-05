@@ -4,61 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="/static/style.css" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact Page</title>
-<style>
-body {font-family: freckle face;}
-* {box-sizing: border-box;}
 
-input[type=text], select, textarea {
-  width: 100%;
-  height: fit-content;
-  padding: 12px;
-  border: 1px solid black;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: blue;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  border-color: black;
-}
-
-input[type=submit]:hover {
-  background-color: green;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: cornflowerblue;
-  padding: 20px;
-}
-
-</style>
 </head>
 <body>
+    <div id="navbar">
+        <a href="index.html">Home</a>
+        <a href="discography.html">Discography</a>
+        <a href="contactpage.html">Contact</a>
+      </div> 
+    
 
 <h3><u>Talk to us!</u></h3>
 
-<div class="container">
-  <form action="/index.html">
+<div class="containertwo">
+  <form action="/successpage.html">
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" id="fname" name="firstname"  placeholder="Your name.." required>
 
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email" required> 
+    <br>
+    <br>
 
     <label for="enquires">Enquires</label>
     <select id="enquires" name="enquires">
@@ -80,10 +55,8 @@ input[type=submit]:hover {
 
 <footer class="footer">
     <div class="text-center">
-      <a href="https://bandcamp.com/robustsoundsrecords"><i class="fa fa-bandcamp" style="font-size: 85px;"></i></a>
-      <a href="https://soundcloud.com/robustsoundsinc"><i class="fa fa-soundcloud" style="font-size: 85px;"></i></a>
     </div>
-    <a href="index.html"><img src="/imgs/Logo.png" width="150" height="150" title="RobustSounds" alt="Logo"></a>
+    <a href="index.html"><img src="/static/imgs/Logo.png" width="150" height="150" title="RobustSounds" alt="Logo"></a>
     <h1>&copy Robust Sounds Inc.</h1>
   
 </footer>
