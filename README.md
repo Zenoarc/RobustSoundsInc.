@@ -93,7 +93,7 @@ The “Freckled” Face” font is the main font used throughout the website, it
 +   Photoshop was used to create the logo, edit and resize images for backgrounds and merchandise.
 ### Balsamiq:
 
-   +     Balsamiq was used to create the wireframes during the design process.
+   +  Balsamiq was used to create the wireframes during the design process.
 ### Vscode:
 
    +  Vscode used is used as the source code editor.
