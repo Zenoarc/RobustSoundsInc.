@@ -101,4 +101,27 @@ The “Freckled” Face” font is the main font used throughout the website, it
 
 
 
- # Testing
+# Testing
+
+ + The code was tested via W3 validation for both html and css
+
+ + The finished site was also tested via chrome simulator to check the various screen sizes:
+   Iphone SE,  Galaxy S10 and Macbook book Pro.
+   
+
+## fix box
+
+Various issues with logo images and  background images were fxed using W3 validation again. The site was also tested via live server, google chrome nad firefox.
+
+# deployment
+
+First deployment was succesful via github pages I then formated and ran the code via gitpod
+
+
+# Credits
+
++ Code institue for template and project guidelines
++ Bootstrap source code
++ W3 Schools source code
+
+https://zenoarc.github.io/RobustSoundsInc./
